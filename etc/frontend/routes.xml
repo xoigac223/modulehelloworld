@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="standard">
+        <route id="routing" frontName="routing">
+            <module name="Bss_HelloWorld" />
+        </route>
+        <route id="about" frontName="about">
+            <module name="Bss_HelloWorld" />
+        </route>
+        <route id="json" frontName="json">
+            <module name="Bss_HelloWorld" />
+        </route>
+        <route id="redirect" frontName="foo">
+            <module name="Bss_HelloWorld" />
+        </route>
+        <route id="forward" frontName="forward">
+            <module name="Bss_HelloWorld" />
+        </route>
+    </router>
+</config>
